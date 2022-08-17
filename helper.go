@@ -22,6 +22,7 @@ import (
 	"github.com/renproject/surge"
 )
 
+// Some hardcoded value for simplicity, you'll need to change this for different assets/chains
 var (
 	network     = multichain.NetworkMainnet
 	asset       = multichain.BTC
